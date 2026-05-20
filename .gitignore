@@ -1,0 +1,53 @@
+# ─── SegmentAI Project .gitignore ─────────────────────────────────────────
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+frontend/dist/
+frontend/.vite/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+backend/.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+backend/venv/
+backend/.venv/
+backend/*.egg-info/
+backend/dist/
+backend/build/
+*.pyc
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Vercel
+.vercel/
